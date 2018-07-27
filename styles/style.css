@@ -1,0 +1,159 @@
+
+body {
+  background-image: url('../images/fond.jpg');
+  width: 66.5em;
+  margin: auto; 0;
+  font-family: calibri;
+}
+#contenaire_a
+{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+
+  /*border: 1px solid green;*/
+}
+.div_a
+{
+/*border: 1px solid blue;*/
+}
+.div_a_commun
+{
+  flex-grow: 1;
+  align-self: center;
+  color: red;
+  width: auto;
+}
+.balise_h1
+{
+  text-align: center;
+  background-color: yellow;
+  margin-left: 150px;
+  margin-right: 150px;
+  border-radius: 15px;
+}
+
+.contenaire_b
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.contenaire_b a
+{
+  /*margin: 0px;*/
+  /*flex-grow: 0;*/
+}
+.lien
+{
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  width: auto;
+}
+
+.div_b
+{
+/*border: 1px solid red;*/
+/*margin-top: 0px;*/
+flex-grow: 0;
+}
+.taille
+{
+  width: 200px;
+  height: 200px;
+}
+.contenaire_flex_center
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 900px;
+  height: 225px;
+  margin-left: 150px;
+  /*border: 2px solid blue;*/
+}
+.contenaire_flex_center2
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 700px;
+  height: 225px;
+  margin-left: 360px;
+  /*border: 2px solid green;*/
+}
+.compteur
+{
+  margin: auto;
+  border: 6px solid red;
+  padding: 20px;
+  font-size: 50px;
+  text-align: center;
+  background-color: yellow;
+  color: red;
+}
+.compteur
+{
+  border: 2px solid green;
+}
+.lancement
+{
+  color: red;
+  font-weight: bold;
+  font-size: 30px;
+  width: 200px;
+  text-align: center;
+}
+.appuie
+{
+  color: #E74C3C;
+  font-weight: bold;
+  font-size: 30px;
+}
+.test
+{
+  font-size: 30px;
+  text-align: center;
+  /*border: 2px solid red;*/
+}
+.bouton
+{
+  font-family: calibri;
+  background-color: #1ABC9C;
+  border-radius: 30%;
+  border-color: #1A5276;
+  border-width: 2px;
+  border-style: solid;
+}
+.bouton2
+{
+  font-family: calibri;
+  background-color: #1ABC9C;
+  border-radius: 10%;
+  border-color: #1A5276;
+  border-width: 2px;
+  border-style: solid;
+  /*width: 350px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;*/
+  align-items: center;
+}
+.reinitialisation
+{
+  /*align-items: center;*/
+}
+#div_reinit
+{
+  display: flex;
+  margin-left: 400px;
+  margin-right: 300px;
+  margin-top: 30px;
+}
